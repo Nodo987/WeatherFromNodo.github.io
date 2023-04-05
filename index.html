@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+   <div id="full_content_container">
+    <div id="background_images">
+        <img src="./images/wallpaper/birds.png" class="birds out_of_the_box_bottom">
+        <img src="./images/wallpaper/mountains.png" class="mountains out_of_box">
+        <img src="./images/wallpaper/clouds.png" class="Clouds out_of_box">
+        <img src="./images/wallpaper/clouds.png" class="Clouds second_cloud out_of_box_left">
+        <img src="./images/wallpaper/Default_sketch_design_of_a_modern_website_landing_page_for_a_W_1_2d64b863-0374-4056-ab01-53a027dc53d4_1.png" id="Decororation_image" class="out_of_box">
+        <img src="./images/wallpaper/snow.png" class="snow out_of_box_top">
+        <img src="./images/wallpaper/rain.png" class="rain out_of_box_top" alt="">
+    </div>
+        <div id="Weather_information_container" class="width0">
+            <div id="search_bar_container" class="opacity0">
+                <input type="text" id="Search_bar" placeholder="Search City">
+                <img src="./images/icons/search_icon.png" id="search_icon">
+                <ul id="city_list"></ul>
+            </div>
+            <p id="warning_text">Something went wrong, please check City name or internet conection</p>
+            <div id="information_container" class="opacity0">
+                <div id="City_name_container">
+                    <p id="City_name_text">Tbilisi</p>
+                    <hr class="h">
+                </div>
+                <div id="weather_stats">
+                    <div id="Weather_icons">
+                        <img src="./images/icons/Cloud_Icon.png" class="weather_stat_icons hiden">
+                        <img src="./images/icons/rain_icon.png"  class="weather_stat_icons hiden">
+                        <img src="./images/icons/snow_icon.png"  class="weather_stat_icons hiden">
+                        <img src="./images/icons/sun_icon.png"  class="weather_stat_icons hiden">
+                    </div>
+                    <div id="stats">
+                        <div class="actual_stats">
+                            <p>Temp: <span>  28C</span> </p>
+                            <p class="p_absolute">Weather: <span>Clear</span></p>
+                        </div>
+                        <div class="actual_stats">
+                            <p>Max Temp: <span>32C</span></p>
+                            <p class="p_absolute">Humadity: <span>100</span></p>
+                        </div>
+                        <div class="actual_stats">
+                            <p>Min Temp: <span>25C</span></p>
+                            <p class="p_absolute">Wind Speed: <span>25</span></p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div>
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
